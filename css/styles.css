@@ -1,0 +1,74 @@
+@font-face {
+    font-family:"Lato" ;
+    src: url(../Assets/fuentes/Lato-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "main main main"
+        "footer footer footer";
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    height: 100vh;
+   }
+  
+  header {
+    grid-area: header;
+  }
+  
+  main {
+    grid-area: main;
+  }
+    
+  footer {
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: Lato;
+}
+
+.titulo {
+  justify-items: center;
+}
+
+
+.carrera {
+display: flex;
+flex-direction: column;
+}
+
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenido {
+  margin: 10px;
+}
+
+.youtube {
+  margin: 10px;
+}
+
+.accordion-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tituloypilotos {
+   justify-items: center;
+}

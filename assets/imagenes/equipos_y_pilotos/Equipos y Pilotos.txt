@@ -1,0 +1,16 @@
+Equipo	Piloto	Piloto
+GermanyMercedes	United Kingdom Lewis Hamilton (hasta finales de 2023)	United Kingdom George Russell (contrato multianual)
+Austria Red Bull	Netherlands Max Verstappen (hasta finales de 2023)	Mexico Sergio Pérez (hasta 2024)
+United Kingdom McLaren F1	United Kingdom Lando Norris (hasta 2025)	Australia Oscar Piastri (hasta 2024)
+United Kingdom Aston Martin	Spain Fernando Alonso (hasta 2024)	Canada Lance Stroll
+France Alpine	France Esteban Ocon (hasta 2024)	
+France Pierre Gasly (contrato multianual)
+
+Italy Ferrari	Monaco Charles Leclerc (hasta 2024)	Spain Carlos Sainz (hasta 2024)
+Italy AlphaTauri	Japan Yuki Tsunoda	Netherlands Nyck de Vries (contrato multianual)
+Switzerland Alfa Romeo	Finland Valtteri Bottas (contrato multianual)	China Guanyu Zhou (hasta 2024)
+United States Haas	Denmark Kevin Magnussen	
+Germany Nico Hulkenberg
+
+United Kingdom Williams	Thailand Alex Albon (contrato multianual)	
+United States Logan Sargeant (contr
