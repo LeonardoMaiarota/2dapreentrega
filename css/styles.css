@@ -18,23 +18,104 @@ body {
         "main main main"
         "footer footer footer";
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    height: 100vh;
+    min-height: 100vh;
    }
   
   header {
     grid-area: header;
+    background-color: black;
   }
   
   main {
     grid-area: main;
   }
-    
-  footer {
-    grid-area: footer;
-    background-color: black;
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tituloppal {
     display: flex;
     align-items: center;
+    justify-items: center;
+    margin-right: 100px;
   }
+
+  .desarrollo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .resumencarrera {
+    margin-right: 50px;
+  }
+
+  .tabladeposiciones {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    margin: 10px;
+  }
+
+  .resultadocampeonato {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pospilotos {
+    margin-right: 5px;
+  }
+
+  .puntospilotos {
+    margin-right: 5px;
+  }
+
+  .granpremio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .titulogp{
+    border: 2px solid black;
+  }
+
+  .datosgp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tituloyfechagp {
+    margin-left: 20px;
+  }
+
+  .circuitogp {
+    margin-right: 20px;
+  }
+
+  .datosequipo1 {
+    font-weight:700;
+  }
+
+  .tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+   .card {
+    width: 18rem; 
+    height: 24rem;
+   }
+
+   .fototienda {
+    width:16rem;
+    height: 250rem;
+   }
 
   h2 {
     font-family: Lato;
@@ -44,12 +125,10 @@ body {
   justify-items: center;
 }
 
-
 .carrera {
 display: flex;
 flex-direction: column;
 }
-
 
 .contenido {
   display: flex;
@@ -71,4 +150,128 @@ flex-direction: column;
 
 .tituloypilotos {
    justify-items: center;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textofooter {
+  color: white;
+  font-size: 15px;
+}
+
+.rrssfooter {
+  justify-content: flex-end;
+  margin-left: 200px;
+}
+
+/* Mediaqueris version tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .tienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .card {
+    width: 15rem;
+    height: 20.5rem;
+  }
+
+  .fototienda {
+    width:11rem;
+    height: 16rem;
+   }
+
+  .card-title{
+    font-size: 15px;
+  }
+
+  .card-text{
+    font-size: 10px;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textofooter {
+    color: white;
+    font-size: 10px;
+  }
+  
+  .rrssfooter {
+   margin-left: 0px;
+   margin-bottom: 5px;
+  }
+}
+
+
+
+/* Mediaqueris version mobile*/
+
+@media (max-width: 768px) {
+
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+
+  .card {
+    width: 25rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fototienda {
+    width:4rem;
+    height: 5rem;
+   }
+
+  .card-title{
+    font-size: 12px;
+  }
+
+  .card-text{
+    font-size: 8px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textofooter {
+    color: white;
+    font-size: 7px;
+  }
+
+  .rrssfooter {
+   margin-left: 0px;
+   margin-bottom: 1px;
+  }
 }

@@ -9,58 +9,84 @@
   </head>
 <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/equipos.html">Equipos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/noticias.html">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/registrarme.html">Registrarme</a>
-                </li>
-              </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg bg-transparent-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/equipos.html">Equipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/calendario.html">Calendario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/registrarme.html">Registrarme</a>
+              </li>
           </div>
-        </nav>
+        </div>
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       </nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </header>
            
     <main>
-      <section class="titulo">
-        <h1>Bienvenidos al sitio de Locos por la F1</h1>
-      </section>
-      <section class="contenido">
+      <div class="principal">
+        <div class="tituloppal">
+          <h1>Bienvenidos al sitio de Locos por la F1</h1>
+        </div>
         <div class="desarrollo">
-          <h2>Resumen del último GP de Monza</h2>
-          <p>Las carrera tuvo como amplio dominador a Max Verstappen, Sergio Pérez fue su seguidor, así fue como el equipo red bull obtuvo un doblete. Mientras que Carlos Sainz, del equipo Ferrari, completó el podio.</p>
-        </div>
-        <div class="youtube"> 
-          <iframe width="448" height="252" src="https://www.youtube.com/embed/CKMRRF5G4Ng?si=8Fvi_M788DnFIJ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </section>
+          <div class="resumencarrera">
+            <h2>Resumen del último GP de Monza</h2>
+            <p>Las carrera tuvo como amplio dominador a Max Verstappen, Sergio Pérez fue su seguidor, mientras que Carlos Sainz, del equipo Ferrari, completó el podio.</p>
+            <iframe width="336" height="189" src="https://www.youtube.com/embed/CKMRRF5G4Ng?si=8Fvi_M788DnFIJ0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="Tabladeposiciones">
+            <h2>Campeonato</h2>
+            <div class="resultadocampeonato">
+              <div class="pospilotos">
+                <p>Max Verstappen</p>
+                <p>Sergio Pérez</p>
+                <p>Lewis Hamilton</p>
+                <p>Fernando Alonso</p>
+                <p>Carlos Sainz</p>
+              </div>
+              <div class="puntospilotos">
+                <p>433</p>
+                <p>224</p>
+                <p>194</p>
+                <p>183</p>
+                <p>153</p>
+              </div>
+            </div>
 
-    </main>   
+
+            
+          </div>
+        </div>
+      </div>
+      
+  |</main>   
 
     <footer>
-        <p>Seguinos en:</p>
-        <a href="https://es-la.facebook.com/"> <img src="./Assets/imagenes/iconos/Facebook.png" width="25px" height="25px" alt=""></a></button>
-        <a href="https://www.instagram.com/"> <img src="./Assets/imagenes/iconos/Instagram.png" width="25px" height="25px" alt=""></a></button>
-        <a href="https://twitter.com/Twitter"> <img src="./Assets/imagenes/iconos/twitter.png" width="25px" height="25px" alt=""></a></button>
+      <div class="textofooter">
+        <p>La reproducción parcial o total está prohibida, sin autorización previa de locosporlaF1.com | Todos los derechos reservados</p>
+      </div>
+      <div class="rrssfooter">
+        <a href="https://es-la.facebook.com/"> <img src="./Assets/imagenes/iconos/social_facebook_fb_35.png" width="25px" height="25px" alt="ícono de facebook"></a>
+        <a href="https://www.instagram.com/"> <img src="./Assets/imagenes/iconos/instagram_black_logo_icon_147122.png" width="25px" height="25px" alt="ícono de instagram"></a>
+        <a href="https://twitter.com/Twitter"> <img src="./Assets/imagenes/iconos/social_Twitter_38.png" width="25px" height="25px" alt="ícono de twitter"></a>
+        <a href="https://youtube.com"> <img src="./assets/imagenes/iconos/youtube_black_logo_icon_147044.png" width="25px" height="25px" alt="ícono de youtube"></a>
+        <a href="https://www.tiktok.com/explore"> <img src="./assets/imagenes/iconos/tiktok_logo_icon_186928.png" width="25px" height="25px" alt="ícono de Tiktok"></a>
+      </div>
     </footer>
 </body>
 
