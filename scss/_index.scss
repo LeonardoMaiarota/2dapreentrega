@@ -1,0 +1,41 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .tituloppal {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 100px;
+  }
+
+  .desarrollo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .resumencarrera {
+    margin-right: 50px;
+  }
+
+  .tabladeposiciones {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    margin: 10px;
+  }
+
+  .resultadocampeonato {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pospilotos {
+    margin-right: 5px;
+  }
+
+  .puntospilotos {
+    margin-right: 5px;
+  }

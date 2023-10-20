@@ -1,0 +1,22 @@
+.tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+
+   .card {
+    width: 18rem;
+    height: 30rem;
+   }
+
+
+   .fototienda {
+    width:16rem;
+    height: 150rem;
+   }
+
+   .botonañadir {
+    background-color: aqua;
+   }

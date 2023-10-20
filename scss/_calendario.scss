@@ -1,0 +1,32 @@
+.granpremio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+
+  .titulogp{
+    border: 2px solid black;
+  }
+
+
+  .datosgp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .tituloyfechagp {
+    margin-left: 20px;
+  }
+
+
+  .circuitogp {
+    margin-right: 20px;
+  }
+
+
+  .datosequipo1 {
+    font-weight:700;
+  }
