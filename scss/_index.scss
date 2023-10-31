@@ -1,41 +1,22 @@
-.principal {
-    display: flex;
-    flex-direction: column;
+.mainindex {
+  display: flex;
+  flex-direction: column;
+     img {
+      width:200px;
+      height:102px;
   }
- 
-  .tituloppal {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin-right: 100px;
   }
+  
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  .desarrollo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.resumencarrera {
+  width: 70%;
+}
 
-  .resumencarrera {
-    margin-right: 50px;
-  }
-
-  .tabladeposiciones {
-    display: flex;
-    flex-direction: row;
-    background-color: lightblue;
-    margin: 10px;
-  }
-
-  .resultadocampeonato {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .pospilotos {
-    margin-right: 5px;
-  }
-
-  .puntospilotos {
-    margin-right: 5px;
-  }
+.tabladeposiciones {
+  width: 30%;
+}

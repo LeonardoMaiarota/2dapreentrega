@@ -1,32 +1,15 @@
-.granpremio {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-  }
+.maincalendario {
+  display: flex;
+  flex-direction: row;
+}
 
+.calendario {
+  width: 70%;
+}
 
-  .titulogp{
-    border: 2px solid black;
-  }
-
-
-  .datosgp {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-
-  .tituloyfechagp {
-    margin-left: 20px;
-  }
-
-
-  .circuitogp {
-    margin-right: 20px;
-  }
-
-
-  .datosequipo1 {
-    font-weight:700;
-  }
+.proximogp {
+  width: 30%;
+  border: 2px solid black;
+  img {width: 250px;
+  height: 150px;}
+}

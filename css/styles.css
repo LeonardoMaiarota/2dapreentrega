@@ -3,7 +3,6 @@ body {
   display: grid;
   grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
   grid-template-rows: 1fr 2fr 2fr 1fr;
-  min-height: 100vh;
 }
 
 header {
@@ -52,37 +51,22 @@ header {
   justify-items: center;
 }
 
-.granpremio {
+.maincalendario {
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
+  flex-direction: row;
 }
 
-.titulogp {
+.calendario {
+  width: 70%;
+}
+
+.proximogp {
+  width: 30%;
   border: 2px solid black;
 }
-
-.datosgp {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.tituloyfechagp {
-  margin-left: 20px;
-}
-
-.circuitogp {
-  margin-right: 20px;
-}
-
-.datosequipo1 {
-  font-weight: 700;
-}
-
-.claseccion {
-  display: flex;
-  flex-direction: row;
+.proximogp img {
+  width: 250px;
+  height: 150px;
 }
 
 label {
@@ -94,11 +78,39 @@ label {
   margin-left: 5px;
 }
 
+.mainindex {
+  display: flex;
+  flex-direction: column;
+}
+.mainindex img {
+  width: 200px;
+  height: 102px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resumencarrera {
+  width: 70%;
+}
+
+.tabladeposiciones {
+  width: 30%;
+}
+
 footer {
   background-color: gray;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
 }
 
 .textofooter {
